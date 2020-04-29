@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Footer from './footer';
 import Navbar from "./navbar";
 import './layout.css';
 
@@ -34,15 +35,14 @@ const Layout = ({ children }) => {
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+        <script src="https://kit.fontawesome.com/6040cb7b15.js" crossorigin="anonymous"></script>
       </Helmet>
       <div>
         <Navbar />
         <main>
           {children}
         </main>
+        <Footer/>
       </div>
     </>
   )
