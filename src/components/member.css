@@ -33,15 +33,48 @@
     text-decoration: underline;
 }
 
+.normal .name {
+    align-items: flex-start !important;
+}
+
+.invert .name {
+    align-items: flex-end !important;
+}
+.invert .name h1, .invert .name h3{
+    text-align: right;
+}
+
 @media only screen and (max-width: 600px) {
     .member-card{
-        width: 90vw;
+        width: 75vw;
+        background-color: rgba(255, 255, 255, 0.904);
     }
+    
+    .member-card .name {
+        padding: 1rem;
+    }
+
     .member-card img {
-      width: 30vw;
+      width: 40vw;
     }
     .member-card h1{
         font-size: 1rem;
         font-weight: 800;
     }
-  }
+    .normal .image{
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .member-card .name h1 {
+        padding-bottom: 2rem;
+        transition: all 0.3s ease-in-out;
+    }
+    .member-card:hover .name h1 {
+        padding-bottom: 0;
+        transition: all 0.3s ease-in-out;
+    }
+}

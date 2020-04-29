@@ -1,0 +1,47 @@
+a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar {
+    background-color: black;
+    padding: 1rem !important;
+}
+
+.dropdown-item{
+    color: black !important;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+    background-color: rgb(88, 1, 146);
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .show li{
+    margin: 3vh 0;
+}
+
+.navbar .collapsing li{
+    margin: 3vh 0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-collapse{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end;
+    }
+}

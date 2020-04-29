@@ -1,5 +1,13 @@
 .team{
 	color: white;
+	margin-top: 10vh;
+}
+
+.team .hero {
+	margin-bottom: 5rem;
+	padding: 2rem;
+	background-color: rgba(255, 255, 255, 0.705);
+	color: black;
 }
 
 .team .sections {
@@ -7,6 +15,8 @@
 	padding: 2rem;
 	background-color: rgba(0, 0, 0, 0.116);
 }
+
+
 
 .odd, .even {
 	padding: 1rem;
@@ -23,5 +33,23 @@
 	left: 0;
 	z-index: -1;
 	background-color: #232741;
-	pointer-events: none
-  }
+}
+
+.particle-cover {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+	.team .sections {
+		background-color: rgba(0, 0, 0, 0.226);
+	}
+	.team .heading {
+		font-size: 2.2rem;
+	}
+}
