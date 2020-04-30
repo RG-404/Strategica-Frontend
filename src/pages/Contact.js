@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { animateScroll as scroll } from "react-scroll";
 import axios from "axios";
 
 import "./Contact.css";
