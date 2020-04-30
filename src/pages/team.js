@@ -64,7 +64,7 @@ const Team = () => {
                             name="Syed Ibtisam Tauhidi" 
                             role="Assistant Professor" 
                             dep="Computer Science and Engineering"
-                            url="https://i.picsum.photos/id/235/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588277213/Strategica/teams/f1_xnw7m6.jpg"
                         />
                     </div>
                     <div className="col-sm-6 my-2 even">
@@ -72,7 +72,7 @@ const Team = () => {
                             name="Pankaj Sharma" 
                             role="Assistant Professor" 
                             dep="Electrical Engineering"
-                            url="https://i.picsum.photos/id/201/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588277213/Strategica/teams/f2_ogp1qy.jpg"
                         />
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const Team = () => {
                     <span>Leaders instill in their people a hope for success and a belief in themselves. Positive leaders empower people to accomplish their goals."</span>
                 </div>
                 <div className="row">
-                    <div className="col-xl-3 col-lg-6 odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6 odd">
                         <Member
                             name="Ibtizam Choudhury"
                             role="Club President"
@@ -92,7 +92,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-xl-3 col-lg-6 even">
+                    <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member
                             name="Sherya Simanta Sarmah" 
                             role="Club Secretary"
@@ -100,7 +100,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-xl-3 col-lg-6  odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6  odd">
                         <Member 
                         invert={true}  
                             name="Arpita Sarkar" 
@@ -109,7 +109,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-xl-3 col-lg-6 even">
+                    <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member 
                             invert={true} 
                             name="Rishparn Gogoi" 
@@ -120,7 +120,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6 odd">
                         <Member  
                             name="Subhranan Bora" 
                             role="PR & Event Head"
@@ -128,7 +128,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-md-3 even">
+                    <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member  
                             name="Parishmita Das" 
                             role="Content Head"
@@ -136,7 +136,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-md-3 odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6 odd">
                         <Member  
                             invert={true} 
                             name="Seemanta Shome" 
@@ -145,7 +145,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-md-3 even">
+                    <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member  
                             invert={true} 
                             name="Anurag Kashyap" 
@@ -156,7 +156,7 @@ const Team = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-3 odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6 odd">
                         <Member  
                             name="Akangshya Pathak" 
                             role="Analytics Head"
@@ -164,7 +164,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-md-3 even">
+                    <div className="col-xl-3 col-lg-6 col-md-6 even">
                         <Member  
                             name="Mriganka Mandal" 
                             role="Research Head"
@@ -172,7 +172,7 @@ const Team = () => {
                             noImage={true}
                         />
                     </div>
-                    <div className="col-md-3 odd">
+                    <div className="col-xl-3 col-lg-6 col-md-6 odd">
                         <Member 
                             invert={true} 
                             name="Bedabrat Talukdar" 
@@ -194,14 +194,14 @@ const Team = () => {
                         <Member  
                             name="Subhasmit Malakar" 
                             role="Alumni Mentor"
-                            url="https://i.picsum.photos/id/293/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni1_btacvj.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Arnab Jyoti Bordoloi" 
                             role="Alumni Mentor"
-                            url="https://i.picsum.photos/id/265/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/alumni2_riqmba.jpg"
                         />
                     </div>
                 </div>
@@ -211,7 +211,7 @@ const Team = () => {
                             invert={true}  
                             name="Nishant Saikia"
                             role="Alumni Mentor"
-                            url="https://i.picsum.photos/id/231/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/alumni3_xie7ye.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -219,7 +219,7 @@ const Team = () => {
                             invert={true}  
                             name="Kharan Basumatary" 
                             role="Alumni Mentor"
-                            url="https://i.picsum.photos/id/230/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/alumni4_ymusne.jpg"
                         />
                     </div>
                 </div>
@@ -235,14 +235,14 @@ const Team = () => {
                         <Member  
                             name="Trideep Kr. Batchayan" 
                             role="Senior Member"
-                            url="https://i.picsum.photos/id/537/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/sm1_kp10um.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
                         <Member  
                             name="Dibyajyoti Chatterjee" 
                             role="Senior Member"
-                            url="https://i.picsum.photos/id/637/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276822/Strategica/teams/sm2_qonyef.jpg"
                         />
                     </div>
                 </div>
@@ -252,7 +252,7 @@ const Team = () => {
                             invert={true}  
                             name="Partha Pratim Mazumder" 
                             role="Senior Member"
-                            url="https://i.picsum.photos/id/937/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm3_ygsvuu.jpg"
                         />
                     </div>
                     <div className="col-md-6 even">
@@ -260,7 +260,7 @@ const Team = () => {
                             invert={true}  
                             name="Rohit Deka" 
                             role="Senior Member"
-                            url="https://i.picsum.photos/id/267/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm4_ewtgy0.jpg"
                         />
                     </div>
                 </div>
@@ -270,7 +270,7 @@ const Team = () => {
                             invert={true}  
                             name="Jayant Siktia" 
                             role="Senior Member"
-                            url="https://i.picsum.photos/id/37/250/250.jpg"
+                            url="https://res.cloudinary.com/dmmrlohoi/image/upload/v1588276823/Strategica/teams/sm5_kemrpi.jpg"
                         />
                     </div>
                 </div>

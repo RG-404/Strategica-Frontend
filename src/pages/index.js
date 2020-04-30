@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import SocialBar from '../components/SocialBar';
 import SEO from "../components/seo"
 
 import Logo from '../images/logo.jpg'
@@ -13,7 +14,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="landing">
+      <div className="landing animated fadeIn slow">
         <div className="hero">
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
             <ol className="carousel-indicators">
@@ -24,7 +25,7 @@ const IndexPage = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1076/1920/1080.jpg)' }}></div>
-                <div className="carousel-caption d-md-block carousel-caption-main">
+                <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp delay-1s">
                   <img src={Logo} alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
                   <h4>Finance | Economics &amp; Consulting | Research | Analaytics</h4>
@@ -59,6 +60,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div className="blogs-recent d-flex justify-content-center align-items-center">
+          <SocialBar/>
           RECENT BLOGS WILL GO HERE
         </div>
       </div>

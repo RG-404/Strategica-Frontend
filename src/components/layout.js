@@ -36,6 +36,7 @@ const Layout = ({ children }) => {
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://kit.fontawesome.com/6040cb7b15.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
       </Helmet>
       <div>
         <Navbar />

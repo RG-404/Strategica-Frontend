@@ -1,12 +1,15 @@
 import React from 'react'
 import { Link } from "gatsby"
 
+
 import './navbar.css'
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md navbar-dark">
-            <Link to="/"><span className="navbar-brand">STRATEGICA</span></Link>
+            <Link to="/">
+                <span className="navbar-brand">STRATEGICA</span>
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon" />
             </button>
@@ -27,17 +30,17 @@ const Navbar = () => {
                         </div>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <Link to="#">Social Media</Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
-                        <Link to="#">Events</Link>
+                        <Link to="/events">Events</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="#">Newsletter</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="#">Gallery</Link>
+                        <Link to="/gallery">Gallery</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="#">Blog</Link>

@@ -1,51 +1,36 @@
-.carousel-caption {
+.landing .carousel-caption {
 	color: black !important;
 	padding: 2rem 3rem!important;
 	border-radius: 20px;
 }
 
-.carousel-caption-margin{
+.landing .carousel-caption-margin{
 	background-color: rgba(255, 255, 255, 0.829);
 	margin-bottom: 30vh;
 }
 
-.carousel-caption-main{
+.landing .carousel-caption-main{
 	margin-bottom: 10vh;
 }
 
-.carousel-caption-main h4, .carousel-caption-main h5 {
+.landing .carousel-caption-main h4, .carousel-caption-main h5 {
 	background-color: white;
 	padding: 0.3rem 0;
 }
 
-.logo-hero {
+.landing .logo-hero {
 	width: 20vw;
 	margin-bottom: 2rem;
 }
 
-.fab {
-	height: 5rem !important;
-	width: 5rem !important;
-	color: black !important;
-}
 
-.carousel-caption h1{
+.landing .carousel-caption h1{
 	background-color: rgb(0, 0, 0);
 	color: white;
 	padding: 1rem;
 }
 
-.welcome
-{
-	position: relative;
-	text-align: center;
-	font-family: sans-serif;
-	color: #fff;
-	top: 210px;
-}
-
-
-.image-0{
+.landing .image-0{
 	/* background: url(https://i.picsum.photos/id/237/1920/1080.jpg); */
 	height: 90vh;
 	width: 100vw;
@@ -54,16 +39,16 @@
 	background-position: center center;
 }
 
-.blogs-recent{
+.landing .blogs-recent{
 	height: 100vh;
 }
 
 @media only screen and (max-width:900px){
-	.carousel-caption{
+	.landing .carousel-caption{
 		margin-bottom: 10vh;
 		padding: 1rem !important;
 	}
-	h1{
+	.landing h1{
 		font-size: 1.7rem !important;
 	}
 }
