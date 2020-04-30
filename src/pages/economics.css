@@ -1,94 +1,83 @@
-.parallaxeco
-{
-	/* background-image: url('nature-1552091_1280.png'); */
-	width: 100%;
-	height: 600px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
+.economics {
+	padding: 0 !important;
+	box-shadow: 0 0px 20px -5px black;
+	background-color: rgba(255, 255, 255, 0.76);
+}
+
+.economics .heading-row {
+	background-color: rgb(0, 99, 49);
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 1rem;
+}
+
+.economics .heading-row h1 {
+	margin: 0 !important;
+}
+
+.economics-wrapper{
+	padding: 15vh 0;
+}
+
+  .economics-wrapper::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url(../images/art-2.png);
+	filter: blur(7px);
 	background-size: cover;
-	box-shadow: 10px black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+  }
+  
+  .economics .row {
+	width: 100%;
+  }
+  
+  .economics .details {
+	  padding: 2rem 3rem;
+  }
+  
+  /* .economics .details::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/art-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+  } */
 
-}
+  .economics .team-image {
+	  width: 100%;
+	  background-color: rgb(0, 99, 49);
+	  padding: 0.5rem;
+	  box-shadow: 0 0px 20px -5px black;
+  }
+  
+  .economics .form-col{
+	  padding: 2rem 3rem;
+  }
 
-
-#ecocollage 
-{
-	margin: 40px 40px 0px 70px;
-	border: 3px solid #062f03;
-	
-	padding: 10px 10px 10px 201px;
-	box-shadow: 5px 5px #062f03;
-}
-
-#bllock1
-{
-	  background: linear-gradient(to right, #11998e, #38ef7d);
-	margin: 0px;
-	font-family: 'Alex Brush', cursive;
-	font-size: 30px;
-
-}
-
-
-#bllock2
-{
-
-	border: 2px double #4a554a;
-font-family: 'Alex Brush', cursive;
-
-}
-
-#tripp
-{
-	background: linear-gradient(to right, #093028, #237a57);
-	font-family: 'Kaushan Script', cursive;
-	color: white;
-	width: fill;
-	height: 72px;
-	text-align: center;
-	padding-top: 30px;
-
-}
-
-#med
-{
-	color: white;
-	text-align: center;
-	padding-top: 20px;
-	font-family: 'Alex Brush', cursive;
-}
-
-#meed
-{
-	margin: 10px 20px 20px 20px;
-	padding: 20px;
-	color: white;
-	text-align: center;
-	font-size: 30px;
-	font-family: 'Alex Brush', cursive;
-}
-
-.liste
-{
-	background: linear-gradient(to right, #093028, #237a57);
-	color: white;
-	text-align: center;
-	font-size: 20px;
-	padding-bottom: 10px;
-	font-family: 'Alex Brush', cursive;
-
-}
-
-.titlee
-{
-background: linear-gradient(to right, #093028, #237a57);
-	text-align: center;
-	
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	font-family: 'Kaushan Script', cursive;
-
-
-}
+  .economics ul li{
+	  padding: 0.3rem 0;
+  }
+  
+  @media only screen and (max-width: 800px) {
+	  .economics::before{
+		  display: none;
+	  }
+	  .economics{
+		  padding-bottom: 0;
+	  }
+  
+  }
+  

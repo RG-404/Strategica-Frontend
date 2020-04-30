@@ -4,58 +4,69 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import TeamImg from '../images/financeteam.jpg'
 import './finance.css'
 
 const Finance = () => (
     <Layout>
-        <div className="parallaxfin" />
-        <header id="trip">
-            <h1>FINANCE WING</h1>
-        </header>
-        <div id="block1">
-            <h2 id="zed">"Price is what you pay. Value is what you get. ~ Warren Buffet"</h2>
-            <div>
-                <p id="zeed">Welcome to our finance team 2020-21</p>
-                <div id="financecollage">
-                    <img src="team mates\financeteam.jpg" alt height={600} width={880} />
+        <div className="finance-wrapper">
+            <div className="container finance d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
+                <div className="row">
+                    <div className="row heading-row">
+                        <div className="col d-flex justify-content-center align-items-start flex-column">
+                            <h1 className="text-center"><u>FINANCE WING</u></h1>
+                            <span className="mt-2"><i>"Price is what you pay. Value is what you get."<br/>~ Warren Buffet</i></span>
+                        </div>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
+                        <img src={TeamImg} alt="" className="team-image" />
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                        <h2>
+                            Executive Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Anurag Kashyap</li>
+                            <li>Akangshya Pathak</li>
+                            <li>Aritra Kaushik</li>
+                            <li>Bedabrat Talukdar</li>
+                            <li>Rimon Dutta</li>
+                            <li>Seemanta Shome</li>
+                            <li>Sreeya Dutta</li>
+                        </ul>
+                        <h2>
+                            Assistant Core Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Abinash Barman</li>
+                            <li>Anusikha Goswami</li>
+                            <li>Chirantan Bhuyan</li>
+                            <li>Debadeep Dutta</li>
+                            <li>Gunjan Pratim Buragohain</li>
+                            <li>Kritartha Gautam</li>
+                            <li>Meghna Goswami</li>
+                            <li>Tamzid Ahmed</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <br />
         </div>
-        <div id="block2">
-            <h2 className="titlef">Executive members :</h2>
-            <div className="listf">
-                <ol type={1}>
-                    <li><p>Anurag Kashyap</p></li>
-                    <li><p>Akangshya Pathak</p></li>
-                    <li><p>Aritra Kaushik</p></li>
-                    <li><p>Bedabrat Talukdar</p></li>
-                    <li><p>Rimon Dutta</p></li>
-                    <li><p>Seemanta Shome</p></li>
-                    <li><p>Sreeya Dutta</p></li>
-                </ol>
-                <br />
-                <h2 className="titlef">Assistant core members:</h2>
-                <ol type={1}>
-                    <li><p>Kritartha Gautam</p></li>
-                    <li><p>Abinash Barman</p></li>
-                    <li><p>Chirantan Bhuyan</p></li>
-                    <li><p>Gunjan Pratim Buragohain</p></li>
-                    <li><p>Anusikha Goswami</p></li>
-                    <li><p>Nayan Das</p></li>
-                    <li><p>Meghna Goswami</p></li>
-                    <li><p>Debadeep Dutta</p></li>
-                    <li><p>Tamzid Ahmed</p></li>
-                </ol>
-            </div>
-        </div>
-        <footer>
-            <p><br /></p>
-            <p>STRATEGICA 2020</p>
-            <p>Designed by Dedsec </p>
-            <p>strategica@yahoo.com </p>
-            <p>Instagram ID : @strategica_jec</p>
-        </footer>
     </Layout>
 )
 

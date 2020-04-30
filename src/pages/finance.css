@@ -1,86 +1,83 @@
-#financecollage 
-{
-	margin: 40px 40px 0px 70px;
-	border: 3px solid black;
-	
-	padding: 10px 10px 10px 201px;
-	box-shadow: 10px 10px;
+.finance {
+	padding: 0 !important;
+	box-shadow: 0 0px 20px -5px black;
+	background-color: rgba(255, 255, 255, 0.76);
 }
 
-#block1
-{
-	/* background: url('ocean-1081783_1920.jpg'); */
-	margin: 0px;
-
+.finance .heading-row {
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	margin: 0;
+	padding: 1rem;
 }
 
-
-#block2
-{
-	border: 2px double #4a554a;
-
-
+.finance .heading-row h1 {
+	margin: 0 !important;
 }
 
-#trip
-{
-	background: black;
-	font-family: 'Caveat', cursive;
-	color: white;
-	width: fill;
-	height: 72px;
-	text-align: center;
-	padding-top: 30px;
-
+.finance-wrapper{
+	padding: 15vh 0;
 }
 
-#zed
-{
-	color: white;
-	text-align: center;
-	padding-top: 20px;
-}
-
-#zeed
-{
-	margin: 10px 20px 20px 20px;
-	padding: 20px;
-	color: white;
-	text-align: center;
-	font-size: 20px;
-}
-
-.listf
-{
-	background: black;
-	color: white;
-	text-align: center;
-	font-size: 20px;
-	padding-bottom: 10px;
-
-}
-
-.titlef
-{
-
-	background: black;
-	text-align: center;
-	font-family: 'Caveat', cursive;
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 10px;
-
-}
-
-.parallaxfin
-{
-	/* background-image: url('bitcoin-4851387_1280.png'); */
-	width: 100%;
-	height: 600px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
+  .finance-wrapper::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: url(../images/art-1.png);
+	filter: blur(7px);
 	background-size: cover;
-	box-shadow: 10px black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+  }
+  
+  .finance .row {
+	width: 100%;
+  }
+  
+  .finance .details {
+	  padding: 2rem 3rem;
+  }
+  
+  /* .finance .details::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/art-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	z-index: -1;
+  } */
 
-}
+  .finance .team-image {
+	  width: 100%;
+	  background-color: rgb(0, 0, 0);
+	  padding: 0.5rem;
+	  box-shadow: 0 0px 20px -5px black;
+  }
+  
+  .finance .form-col{
+	  padding: 2rem 3rem;
+  }
+
+  .finance ul li{
+	  padding: 0.3rem 0;
+  }
+  
+  @media only screen and (max-width: 800px) {
+	  .finance::before{
+		  display: none;
+	  }
+	  .finance{
+		  padding-bottom: 0;
+	  }
+  
+  }
+  

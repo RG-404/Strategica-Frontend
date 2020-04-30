@@ -4,56 +4,69 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import TeamImg from '../images/economicsteam.png'
 import './economics.css'
 
 const Economics = () => (
     <Layout>
-            <div className="parallaxeco" />
-            <header id="tripp">
-                <h1>ECONOMICS AND CONSULTING WING</h1>
-            </header>
-            <div id="bllock1">
-                <h3 id="med">"Labour was the first price, the original purchase - money that was paid for all things. It was not by gold or by silver, but by labour, that all wealth of the world was originally purchased."~ Adam Smith</h3>
-                <div>
-                    <h3 id="meed">Welcome to our Economics &amp; Consulting Team 2020-21</h3>
-                    <div id="ecocollage">
-                        <img src="pip.png" alt="economics" height={600} width={880} />
+        <div className="economics-wrapper">
+            <div className="container economics d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
+                <div className="row">
+                    <div className="row heading-row">
+                        <div className="col d-flex justify-content-center align-items-start flex-column">
+                            <h1 className="text-center"><u>ECONOMICS & CONSULTING WING</u></h1>
+                            <span className="mt-2"><i>"Labour was the first price, the original purchase - money that was paid for all things. It was not by gold or by silver, but by labour, that all wealth of the world was originally purchased."<br/>~ Adam Smith</i></span>
+                        </div>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
+                        <img src={TeamImg} alt="" className="team-image" />
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                        <h2>
+                            Executive Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Bijay Verma</li>
+                            <li>Hiya Bandana Bora</li>
+                            <li>Seemanta Shome</li>
+                            <li>Shreya Simanta Sarmah</li>
+                            <li>Sreeya Dutta</li>
+                        </ul>
+                        <h2>
+                            Assistant Core Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Anjan Pathak</li>
+                            <li>Anudit Das</li>
+                            <li>Angshuman Bora</li>
+                            <li>Chinmoy De Kashyap</li>
+                            <li>Debaditya Sarma</li>
+                            <li>Mayur Chetia</li>
+                            <li>Mriganabh Bhargab Saikia</li>
+                            <li>Papumoni Deka</li>
+                            <li>Parikhshit Bora</li>
+                            <li>Swapnil Gautam</li>
+                        </ul>
                     </div>
                 </div>
-                <br />
             </div>
-            <div id="bllock2">
-                <h2 className="titlee">Executive members :</h2>
-                <div className="liste">
-                    <ol type={1}>
-                        <li><p>Seemanta Shome</p></li>
-                        <li><p>Sreeya Dutta</p></li>
-                        <li><p>Bijay Verma</p></li>
-                        <li><p>Shreya Simanta Sarmah</p></li>
-                        <li><p>Hiya Bandana Bora</p></li>
-                    </ol>
-                    <h2 className="titlee">Assistant executive members:</h2>
-                    <ol type={1}>
-                        <li><p>Anjan Pathak</p></li>
-                        <li><p>Mriganabh Bhargab Saikia</p></li>
-                        <li><p>Anudit Das</p></li>
-                        <li><p>Swapnil Gautam</p></li>
-                        <li><p>Chinmoy De Kashyap</p></li>
-                        <li><p>Mayur Chetia</p></li>
-                        <li><p>Debaditya Sarma</p></li>
-                        <li><p>Angshuman Bora</p></li>
-                        <li><p>Papumoni Deka</p></li>
-                        <li><p>Parikhshit Bora/p&gt;</p></li>
-                    </ol>
-                </div>
-            </div>
-            <footer>
-                <p><br /></p>
-                <p>STRATEGICA 2020</p>
-                <p>Designed by Dedsec </p>
-                <p>strategica@yahoo.com </p>
-                <p>Instagram ID : @strategica_jec</p>
-            </footer>
+        </div>
     </Layout>
 )
 

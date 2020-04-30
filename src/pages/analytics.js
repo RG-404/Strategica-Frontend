@@ -3,53 +3,68 @@ import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import TeamImg from '../images/analyticsteam.jpg'
 import './analytics.css'
 
 const Analytics = () => (
     <Layout>
-        <div>
-            <div>
-                <div className="parallaxana" />
-                <div className="solitude">
-                    <h1>Analytics Team</h1>
-                    <h3>"Information is the oil of the 21st century and analytics is the combustion engine." ~ Peter Sondergaard</h3>
-                    <br />
-                    <h3>Welcome to our Analytics team 2020-21</h3>
-                    <br />
-                    <div id="bttr">
-                        <img src="analytics.jpg" alt height={600} weight={800} />
+        <div className="analytics-wrapper">
+            <div className="container analytics d-flex justify-content-center align-items-center flex-column animated fadeIn slow">
+                <div className="row">
+                    <div className="row heading-row">
+                        <div className="col d-flex justify-content-center align-items-start flex-column">
+                            <h1 className="text-center"><u>ANALYTICS WING</u></h1>
+                            <span className="mt-2"><i>"Information is the oil of the 21st century and analytics is the combustion engine."<br/>~ Peter Sondergaard</i></span>
+                        </div>
                     </div>
-                    <div id="skro">
-                        <h2>Executive team</h2>
-                        <ol>
-                            <li><p>Akangshya Pathak</p></li>
-                            <li><p>Souvik Baruah</p></li>
-                            <li><p>Parishmita Das</p></li>
-                            <li><p>Subhranan Bora</p></li>
-                            <li><p>Priyanka Banik</p></li>
-                            <li><p>Sreeya Dutta</p></li>
-                            <li><p>Apeksha Modi</p></li>
-                            <li><p>Priyanka Nandy</p></li>
-                        </ol>
-                        <h2>Assistant Executive team</h2>
-                        <ol>
-                            <li><p>Tanmoy Saikia</p></li>
-                            <li><p>Rishparn Gogoi</p></li>
-                            <li><p>Dhritimoy Majumdar</p></li>
-                            <li><p>Pranjit Goswami</p></li>
-                            <li><p>Kobal Dip Das</p></li>
-                            <li><p>Himraj Gogoi</p></li>
-                            <li><p>Pritom Deka</p></li>
-                            <li><p>Arnavjyoti Kalita</p></li>
-                            <li><p>Harsh Bordhan Singh</p></li>
-                        </ol>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
+                        <img src={TeamImg} alt="" className="team-image" />
                     </div>
-                    <footer>
-                        <p>STRATEGICA 2020</p>
-                        <p>Designed by Dedsec </p>
-                        <p>strategica@yahoo.com </p>
-                        <p>Instagram ID : @strategica_jec</p>
-                    </footer>
+                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                        <h2>
+                            Executive Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Akangshya Pathak</li>
+                            <li>Apeksha Modi</li>
+                            <li>Parishmita Das</li>
+                            <li>Priyanka Banik</li>
+                            <li>Priyanka Nandy</li>
+                            <li>Souvik Baruah</li>
+                            <li>Sreeya Dutta</li>
+                            <li>Subhranan Bora</li>
+                        </ul>
+                        <h2>
+                            Assistant Core Members
+                    </h2>
+                        <hr
+                            style={{
+                                zIndex: "1",
+                                width: "100%",
+                                margin: "0",
+                                marginBottom: '1rem'
+                            }}
+                        />
+                        <ul>
+                            <li>Arnavjyoti Kalita</li>
+                            <li>Dhritimoy Majumdar</li>
+                            <li>Harsh Bordhan Singh</li>
+                            <li>Himraj Gogoi</li>
+                            <li>Kobal Dip Das</li>
+                            <li>Pranjit Goswami</li>
+                            <li>Pritom Deka</li>
+                            <li>Rishparn Gogoi</li>
+                            <li>Tanmoy Saikia</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
