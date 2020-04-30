@@ -18,10 +18,7 @@ const Finance = () => (
                             <span className="mt-2"><i>"Price is what you pay. Value is what you get."<br/>~ Warren Buffet</i></span>
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
-                        <img src={TeamImg} alt="" className="team-image" />
-                    </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                    <div className="col-md-6 d-flex justify-content-start align-items-start details flex-column text-left">
                         <h2>
                             Executive Members
                     </h2>
@@ -42,6 +39,9 @@ const Finance = () => (
                             <li>Seemanta Shome</li>
                             <li>Sreeya Dutta</li>
                         </ul>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-start align-items-start form-col flex-column text-left">
+                      
                         <h2>
                             Assistant Core Members
                     </h2>

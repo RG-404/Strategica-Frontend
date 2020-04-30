@@ -84,96 +84,101 @@ const Team = () => {
                     <span>Leaders instill in their people a hope for success and a belief in themselves. Positive leaders empower people to accomplish their goals."</span>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-xl-3 col-lg-6 odd">
                         <Member
                             name="Ibtizam Choudhury"
                             role="Club President"
                             url="https://i.picsum.photos/id/234/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                    <div className="col-md-6 even">
+                    <div className="col-xl-3 col-lg-6 even">
                         <Member
                             name="Sherya Simanta Sarmah" 
                             role="Club Secretary"
                             url="https://i.picsum.photos/id/137/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-xl-3 col-lg-6  odd">
                         <Member 
                         invert={true}  
                             name="Arpita Sarkar" 
                             role="Social Media Head"
                             url="https://i.picsum.photos/id/337/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                    <div className="col-md-6 even">
+                    <div className="col-xl-3 col-lg-6 even">
                         <Member 
                             invert={true} 
                             name="Rishparn Gogoi" 
                             role="Design head"
                             url="https://i.picsum.photos/id/265/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-md-3 odd">
                         <Member  
                             name="Subhranan Bora" 
                             role="PR & Event Head"
                             url="https://i.picsum.photos/id/366/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                    <div className="col-md-6 even">
+                    <div className="col-md-3 even">
                         <Member  
                             name="Parishmita Das" 
                             role="Content Head"
                             url="https://i.picsum.photos/id/265/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-md-3 odd">
                         <Member  
                             invert={true} 
                             name="Seemanta Shome" 
                             role="Economics & Consulting Head"
                             url="https://i.picsum.photos/id/232/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                    <div className="col-md-6 even">
+                    <div className="col-md-3 even">
                         <Member  
                             invert={true} 
                             name="Anurag Kashyap" 
                             role="Finance Head"
                             url="https://i.picsum.photos/id/637/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-md-3 odd">
                         <Member  
                             name="Akangshya Pathak" 
                             role="Analytics Head"
                             url="https://i.picsum.photos/id/537/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                    <div className="col-md-6 even">
+                    <div className="col-md-3 even">
                         <Member  
                             name="Mriganka Mandal" 
                             role="Research Head"
                             url="https://i.picsum.photos/id/437/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 odd">
+                    <div className="col-md-3 odd">
                         <Member 
                             invert={true} 
                             name="Bedabrat Talukdar" 
                             role="Resource Head"
                             url="https://i.picsum.photos/id/288/250/250.jpg"
+                            noImage={true}
                         />
                     </div>
                 </div>

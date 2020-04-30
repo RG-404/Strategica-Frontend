@@ -14,13 +14,11 @@ const Analytics = () => (
                     <div className="row heading-row">
                         <div className="col d-flex justify-content-center align-items-start flex-column">
                             <h1 className="text-center"><u>ANALYTICS WING</u></h1>
-                            <span className="mt-2"><i>"Information is the oil of the 21st century and analytics is the combustion engine."<br/>~ Peter Sondergaard</i></span>
+                            <span className="mt-2"><i>"Information is the oil of the 21st century and analytics is the combustion engine."<br />~ Peter Sondergaard</i></span>
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
-                        <img src={TeamImg} alt="" className="team-image" />
-                    </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                    <div className="col-md-6 d-flex justify-content-start align-items-start details flex-column text-left">
+                        {/* <img src={TeamImg} alt="" className="team-image" /> */}
                         <h2>
                             Executive Members
                     </h2>
@@ -42,6 +40,9 @@ const Analytics = () => (
                             <li>Sreeya Dutta</li>
                             <li>Subhranan Bora</li>
                         </ul>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-start align-items-start form-col flex-column text-left">
+
                         <h2>
                             Assistant Core Members
                     </h2>

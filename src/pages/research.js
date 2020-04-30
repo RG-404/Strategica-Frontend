@@ -18,13 +18,11 @@ const Research = () => (
                             <span className="mt-2"><i>"The true laboratory is the mind, where behind illusions we uncover the laws of truth"<br/>~ Jagadish Chandra Bose</i></span>
                         </div>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start details">
-                        <img src={TeamImg} alt="" className="team-image" />
-                    </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-start form-col flex-column text-left">
+                    <div className="col-md-6 d-flex justify-content-start align-items-start details flex-column text-left">
+                        {/* <img src={TeamImg} alt="" className="team-image" /> */}
                         <h2>
                             Executive Members
-                    </h2>
+                        </h2>
                         <hr
                             style={{
                                 zIndex: "1",
@@ -45,6 +43,9 @@ const Research = () => (
                             <li>Shreya Simanta Sarmah</li>
                             <li>Subhranan Bora</li>
                         </ul>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-start align-items-start form-col flex-column text-left">
+                       
                         <h2>
                             Assistant Core Members
                     </h2>
