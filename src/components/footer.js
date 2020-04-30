@@ -14,7 +14,7 @@ const Footer = () => {
                             </span>
                         </div>
                         <div className="col text-right pointer">
-                            Designed by &nbsp;
+                            Website by &nbsp;
                             <a href="https://www.linkedin.com/in/rishi-gogoi/" target="_blank" rel="noreferrer noopener">
                                 Rishparn Gogoi
                             </a>

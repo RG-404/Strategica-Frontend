@@ -25,7 +25,7 @@ const IndexPage = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1076/1920/1080.jpg)' }}></div>
-                <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp delay-1s">
+                <div className="carousel-caption d-md-block carousel-caption-main animated fadeInUp">
                   <img src={Logo} alt="" className="logo-hero" />
                   <h1 className="text-center"><u>WELCOME TO STRATEGICA</u></h1>
                   <h4>Finance | Economics &amp; Consulting | Research | Analaytics</h4>
@@ -34,7 +34,7 @@ const IndexPage = () => {
               </div>
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/600/1920/1080.jpg)' }}></div>
-                <div className="carousel-caption d-md-block carousel-caption-margin">
+                <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
                   <h2><u>BLOG POST TITLE</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
                   <button type="button" className="btn btn-dark">READ MORE</button>
@@ -42,7 +42,7 @@ const IndexPage = () => {
               </div>
               <div className="carousel-item">
                 <div className="image-0 d-block w-100" style={{ backgroundImage: 'url(https://i.picsum.photos/id/1058/1920/1080.jpg)' }}></div>
-                <div className="carousel-caption d-md-block carousel-caption-margin">
+                <div className="carousel-caption d-md-block carousel-caption-margin animated fadeInUp">
                   <h2><u>BLOG POST TITLE</u></h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti at eaque obcaecati autem, eveniet amet maiores necessitatibus rem cum incidunt.</p>
                   <button type="button" className="btn btn-dark">READ MORE</button>
